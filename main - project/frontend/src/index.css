@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Light theme */
+body {
+  background-color: #F8FAFC;
+  color: #111827;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme */
+.dark body {
+  background-color: #0F172A;
+  color: #F9FAFB;
+}
